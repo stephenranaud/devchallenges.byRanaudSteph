@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap");
+body,
+html {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  font-size: 100%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+*, ::before, ::after{
+    transition: all 1s ease;
+}
+
+body {
+  padding: max(20px, calc(min(26px, 3vw))) max(24px, calc(min(77px, 3.7vw)));
+}
+
+#header-404 {
+  margin-bottom: calc(60px + 7vmin);
+}
+#header-404 span {
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-align: left;
+}
+
+h1 {
+  font-family: Space Mono;
+  font-size: min(5ch, 7ch);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: Space Mono;
+  font-size: min(2ch, 3ch);
+  font-style: normal;
+  font-weight: 400;
+ 
+  letter-spacing: -0.035em;
+  text-align: left;
+}
+
+.btn {
+  border: none;
+  color: #ffffff;
+  padding: calc(1rem + .07vmin);
+  font-family: Space Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-align: left;
+}
+.btn--flat {
+  background: #333333;
+}
+
+#main-404 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  align-items: flex-start;
+  justify-content: center;
+}
+#main-404 #scarecrow {
+  background-image: url("./img/Scarecrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-width: 287px;
+  max-width: 310px;
+  min-height: 220px;
+  max-height: 243px;
+}
+#main-404 #section-content-404 {
+  max-width: 600px;
+}
+#main-404 #section-content-404 p {
+  color: #333333;
+}
+
+#footer-404 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: calc(100% + 7vmin);
+}
+
+.by-user {
+  font-family: Montserrat;
+  font-size: calc(.8rem + .07vmin);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #BDBDBD;
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 980px) {
+  body {
+    overflow: hidden;
+  }
+
+  #footer-404 {
+    top: calc(100vh - 32px);
+  }
+  #footer-404 .by-user {
+    padding: 0;
+  }
+}
