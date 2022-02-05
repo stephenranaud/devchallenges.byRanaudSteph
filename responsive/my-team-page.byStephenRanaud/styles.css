@@ -46,7 +46,17 @@ p {
   letter-spacing: 0em;
   text-align: left;
 }
-
+#by-user {
+  font-family: Montserrat;
+  font-size: calc(.8rem + .07vmin);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #BDBDBD;
+  padding: 10px 0;
+}
 .header-main {
   display: flex;
   justify-content: space-between;
@@ -70,6 +80,7 @@ p {
 .wrapper {
   max-width: 1000px;
   margin: auto;
+  overflow: hidden;
 }
 
 .team-grid {

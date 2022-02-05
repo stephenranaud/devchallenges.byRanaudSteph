@@ -18,7 +18,7 @@ body {
 
 #header-404 {
     margin-bottom: calc(60px + 7vmin);
-    span {
+    span {  
         font-family: Inconsolata;
         font-size: 24px;
         font-style: normal;
@@ -101,7 +101,7 @@ p {
     top: calc(100% + 7vmin);
 }
 
-.by-user {
+#by-user {
     font-family: Montserrat;
     font-size: calc(.8rem + .07vmin);
     font-style: normal;
@@ -111,7 +111,7 @@ p {
     text-align: center;
     color: #BDBDBD;
     padding: 10px 0;
-}
+  }
 
 @media screen and (min-width: 980px) {
     body {

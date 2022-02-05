@@ -101,7 +101,7 @@ p {
   top: calc(100% + 7vmin);
 }
 
-.by-user {
+#by-user {
   font-family: Montserrat;
   font-size: calc(.8rem + .07vmin);
   font-style: normal;
